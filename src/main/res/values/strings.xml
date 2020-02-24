@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_rock">Rock</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_blues">Blues</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_country">Country</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_hip">Hip-Hop</string>
+
+    <string name="rewind">Rewind</string>
+
+    <string name="forward">Forward</string>
+
+    <string name="pause">Pause</string>
+
+    <string name="back">Back</string>
+
+    <string name="play">Play</string>
+
+</resources>

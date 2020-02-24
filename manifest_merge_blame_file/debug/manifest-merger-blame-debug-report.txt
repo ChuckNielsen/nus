@@ -1,0 +1,88 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright (C) 2016 The Android Open Source Project
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9          http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.myapplication"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="21"
+23-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml
+24        android:targetSdkVersion="29" />
+24-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:19:5-67
+26-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:19:22-64
+27
+28    <application
+28-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:20:5-46:19
+29        android:allowBackup="true"
+29-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:21:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.1.0] /Users/BlaneDixin/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:22:9-43
+33        android:label="@string/app_name"
+33-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:23:9-41
+34        android:supportsRtl="true"
+34-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:24:9-35
+35        android:testOnly="true"
+36        android:theme="@style/AppTheme" >
+36-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:25:9-40
+37        <activity android:name="com.example.myapplication.MainActivity" >
+37-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:27:9-33:20
+37-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:27:19-47
+38            <intent-filter>
+38-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:28:13-32:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:29:17-69
+39-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:29:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:31:17-77
+41-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:31:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:34:9-36:56
+45            android:name="com.example.myapplication.CountryActivity"
+45-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:35:13-44
+46            android:label="@string/category_country" />
+46-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:36:13-53
+47        <activity
+47-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:37:9-39:52
+48            android:name="com.example.myapplication.HipActivity"
+48-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:38:13-40
+49            android:label="@string/category_hip" />
+49-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:39:13-49
+50        <activity
+50-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:40:9-42:54
+51            android:name="com.example.myapplication.BluesActivity"
+51-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:41:13-42
+52            android:label="@string/category_blues" />
+52-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:42:13-51
+53        <activity
+53-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:43:9-45:53
+54            android:name="com.example.myapplication.RockActivity"
+54-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:44:13-41
+55            android:label="@string/category_rock" />
+55-->/Users/BlaneDixin/Downloads/MyApplication3/app/src/main/AndroidManifest.xml:45:13-50
+56    </application>
+57
+58</manifest>

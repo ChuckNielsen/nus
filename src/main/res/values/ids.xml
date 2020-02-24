@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="country" type="id" />
+    <item name="family" type="id" />
+    <item name="colors" type="id" />
+    <item name="rock" type="id" />
+
+</resources>
